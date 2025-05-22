@@ -34,6 +34,7 @@ local authorizationHeader = 'Basic ' .. base64encode(authLogin .. ':' .. authPas
 SetHttpHandler(function(req, res)
     local authorizedRequest = authEnabled == 0 or req.headers['Authorization'] == authorizationHeader
     if req.path == '/metrics' and authorizedRequest then
+        res.writeHead(200, {['Content-Type'] = 'text/plain; version=0.0.4; charset=utf-8'})
         res.send(data)
         TriggerEvent('prometheus:_resetGauges')
     else
