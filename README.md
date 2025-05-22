@@ -102,3 +102,9 @@ end)
 We supplied a `grafanaDashboard.json` including a example Grafana dashboard to use.
 To use it refer to [Grafana Documentation](https://grafana.com/docs/grafana/latest/dashboards/build-dashboards/import-dashboards/)
 
+Check the `grafanaDashboard_new.json`, this is a new dashboard version. (need to review some configurations)
+```
+On JSON file, look for the lines with 'instance=\"<YOUR SERVER IP>:30120\"' and replace by your server hostname/IP Address;
+```
+
+
