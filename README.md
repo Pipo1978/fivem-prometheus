@@ -78,6 +78,8 @@ server_script '@prometheus/eventHandler.lua'
 
 ### Add a new metric
 
+Refer to [FiveM Natives - Get](https://docs.fivem.net/natives/?_0x6886C3FE)
+
 ```lua
 --[[
  * @event prometheus:addMetric
