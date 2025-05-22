@@ -3,15 +3,15 @@
 This resource adds a [Prometheus](https://prometheus.io/) endpoint to your FX Server.  
 There are some default metrics available and you can add yours.
 
-## Installation:
+# Installation:
 
-# Go to your FiveM resource directory;
+Go to your FiveM resource directory;
 git clone <repo>
 
-# Rename fivem-prometheus to prometheus:
+Rename fivem-prometheus to prometheus:
 mv fivem-prometheus prometheus
 
-# Include convars (Check Convars section) and ensure the prometheus on server.cfg:
+Include convars (Check Convars section) and ensure the prometheus on server.cfg:
 
 ...
 set prometheus_auth_enabled 0
@@ -21,7 +21,7 @@ set prometheus_password "admin"
 ensure prometheus
 ...
 
-# Restart your server and go to ## Prometheus configuration;
+Restart your server and go to "Prometheus configuration";
 
 ## Default metrics
 
