@@ -13,6 +13,7 @@ mv fivem-prometheus prometheus
 
 Include convars (Check Convars section) and ensure the prometheus on server.cfg:
 
+```
 ...
 set prometheus_auth_enabled 0
 set prometheus_timeout 5000
@@ -20,6 +21,7 @@ set prometheus_login "admin"
 set prometheus_password "admin"
 ensure prometheus
 ...
+```
 
 Restart your server and go to "Prometheus configuration";
 
